@@ -1,10 +1,10 @@
 readme
 
 
-# 프로젝트 개요
+# 1. 프로젝트 개요
 법률 관련 PDF 문서와 웹 검색을 통합하여 사용자 질문에 답변하는 AI 챗봇 개발.
 
-## 기술 스택
+## 2. 기술 스택
 - **Python**, **Streamlit**: 웹 UI 구현
 - **LangChain**: LLM 프롬프트, 에이전트, 메모리 관리
 - **Azure OpenAI**: LLM, 임베딩
@@ -12,7 +12,7 @@ readme
 - **Azure AI Search**: 법률 문서 검색
 - **scikit-learn**: 코사인 유사도 계산
 
-## 주요 기능
+## 3. 주요 기능
 ### 3.1 세션 및 대화 히스토리 관리
 - 사용자별 고유 세션 ID(UUID) 생성 및 관리
 - 대화 기록을 JSON 파일로 저장/불러오기 (`chat_history` 폴더)
@@ -28,9 +28,9 @@ readme
 - LLM이 대화 맥락과 현재 질문을 바탕으로 검색에 적합한 쿼리 생성
 - 연속 질문이 아닐 경우, 단순히 최신 질문을 쿼리로 사용
 
-## 시연
+## 4. 시연
 [실행 링크](https://yh-webapp-011-a9haceb3aegfevh5.westus-01.azurewebsites.net/)
 
-## 향후 개선 방향
+## 5. 향후 개선 방향
 - 연속 질문 판단 로직 개선
    
