@@ -1,6 +1,5 @@
 readme
 
-https://yh-webapp-011-a9haceb3aegfevh5.westus-01.azurewebsites.net/
 
 1. 프로젝트 개요
   법률 관련 PDF 문서와 웹 검색을 통합하여 사용자 질문에 답변하는 AI 챗봇 개발
